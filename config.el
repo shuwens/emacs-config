@@ -98,8 +98,8 @@
 ;; help entries are often more long form. put them in a proper window
 ;; (set-popup-rule! "^\\*\\([Hh]elp\\|Apropos\\)" :ignore t)
 
-(if (eq system-type 'darwin)
-    (add-hook 'window-setup-hook #'toggle-frame-fullscreen))
+;; (if (eq system-type 'darwin)
+;;     (add-hook 'window-setup-hook #'toggle-frame-fullscreen))
 
 ;; Place your private configuration here! Remember, you do not need to run 'doom
 ;; sync' after modifying this file!
